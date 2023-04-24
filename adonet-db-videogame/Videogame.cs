@@ -28,7 +28,6 @@ namespace adonet_db_videogame
             this.Overview = _overview;
             this.ReleaseDate = _releaseDate;
             this.UpdatedAt = DateTime.Now;
-            Random random = new Random();
             this.SoftwareHouseId = _SoftwareHouseId;
         }
 
