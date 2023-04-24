@@ -18,7 +18,7 @@ namespace adonet_db_videogame
         public string Overview { get; set; }
         public DateTime ReleaseDate { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public DateTime? UpdatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; } = null;
         public int SoftwareHouseId { get; set; }
 
 
@@ -27,7 +27,6 @@ namespace adonet_db_videogame
             this.Name = _name;
             this.Overview = _overview;
             this.ReleaseDate = _releaseDate;
-            this.UpdatedAt = DateTime.Now;
             this.SoftwareHouseId = _SoftwareHouseId;
         }
 
